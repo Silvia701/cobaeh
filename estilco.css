@@ -1,0 +1,119 @@
+.fondo{
+    
+  background-color:black;
+  text-align: center;
+  font-size: 50px;
+  color:bisque;
+  height: 60px;
+  position: relative;
+  top:30px;
+
+}
+
+.fondo1{
+  background-color: gray;
+  width: 1332px;
+  height: 880px;
+  position: relative;
+  top:30px;
+}
+
+.caja1{
+  background-color: red;
+  width: 550px;
+  height: 750px;
+  border: 5px solid black;
+  position: relative;
+  top:50px;
+  left: 60px;
+}
+.caja2{
+  background-color:green;
+  width: 550px;
+  height: 250px;
+  border: 5px solid black;
+  float: right;
+  position: relative;
+  bottom:708px;
+  right: 70px;
+}
+.caja3{
+  background-color: green;
+  width: 550px;
+  height: 250px;
+  border: 5px solid black;
+  float: right;
+  position: relative;
+  bottom:420px;
+  left: 490px;
+}
+.caja4{
+  background-color: orange;
+  width: 550px;
+  height: 80px;
+  border: 5px solid black;
+  float: right;
+  position: relative;
+  bottom:360px;
+  right:70px ;
+}
+.caja5{
+  background-color:black;
+  width: 1200px;
+  height: 25px;
+  border: 5px solid black;
+  color: bisque;
+  text-align: center;
+  float: right;
+  position: relative;
+  bottom:280px;
+  right:65px ;
+}
+
+h1{
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  bottom: 10px;
+  
+}
+p{
+  font-size: 20px;
+  text-align: justify;
+  position: relative;
+  bottom:25px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.banner{
+  width: 450px;
+  height: 200px;
+  border: 2px solid black;
+  margin: auto;
+  animation: banner 5s infinite;
+  animation-direction: order;
+}
+@keyframes banner{
+  0%, 30% {
+      background: url(apoyo/cobaeh.png);
+      opacity: 1;
+      background-size: 100% 100%;
+  }
+  31%, 34%{
+      opacity: 0.1;
+  }
+  35%, 65%{
+      background: url(apoyo/computo.png);
+      opacity: 1;
+      background-size: 100% 100%;
+  }
+  66%, 69%{
+      opacity: 0.1;
+  }
+  70%, 100%{
+      opacity: 1;
+      background: url(apoyo/plantel.png);
+      background-size: 100% 100%;
+  }
+}
